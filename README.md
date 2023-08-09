@@ -1,7 +1,15 @@
-<p align="center">
-  <img src="https://github.com/WarnerGreenbaum/LabelCreator/blob/main/Label_Creator/template_ignore_me/networklogo.jpg" alt="alt text" width="300">
-</p>
-
+<div align="center">
+  <style>
+    .expandable-image {
+      max-width: 100px;
+      transition: max-width 0.3s ease-in-out;
+    }
+    .expandable-image:hover {
+      max-width: 300px; /* Adjust this value to your desired expansion width */
+    }
+  </style>
+  <img class="expandable-image" src="https://github.com/WarnerGreenbaum/LabelCreator/blob/main/Label_Creator/template_ignore_me/networklogo.jpg" alt="alt text">
+</div>
 **What Does It Do?**
 This tool is designed to automate the process of populating a label sheet based on a network switch cutsheet.
 
