@@ -1,4 +1,5 @@
-![alt text](https://github.com/breezemydude/LabelCreator/blob/main/networklogo.jpg?raw=true)
+![alt text](https://github.com/WarnerGreenbaum/LabelCreator/blob/Label_Creator/networklogo.jpg?raw=true)
+
 **What Does It Do?**
 This tool is designed to automate the process of populating a label sheet based on a network switch cutsheet.
 
