@@ -1,5 +1,3 @@
-Certainly! Here's a more organized and formatted version of the instructions:
-
 **What Does It Do?**
 This tool is designed to automate the process of populating a label sheet based on a network switch cutsheet.
 
