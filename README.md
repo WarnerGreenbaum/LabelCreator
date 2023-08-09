@@ -33,13 +33,13 @@ This tool is designed to automate the process of populating a label sheet based 
    - If successful, a prompt will display the number of sheets required for the labels.
    - The generated DOCX file will be located in the 'outputs' folder.
    - If an error occurs, carefully read the error message for troubleshooting.
-5. **Print Onto Paper**
-   -Load your printer with either of the following sheets 5366 or 45366. The sheets below are supposedly also compatible but I haven't tested with them.
-   (48266, 48366, 5029, 5566, 6505, 75366, 8066, 8366, 8478, 8590, 8593, Presta 94210)
-   
+
+5. **Print Onto Paper:**
+   - Load your printer with either of the following sheets: 5366 or 45366. The sheets below are supposedly also compatible, but I haven't tested with them.
+     (48266, 48366, 5029, 5566, 6505, 75366, 8066, 8366, 8478, 8590, 8593, Presta 94210)
+
 **Important Notes:**
 - This tool was developed quickly and may not adhere to the highest standards of code cleanliness.
 - While functional, it may lack the polish of a fully refined product.
 - The most common error may be related to formatting. Ensure that your old ports and new ports match up as shown in the example cutsheet ('mock-idf-vfsw.xlsx').
-
-Remember to replace `'mock-idf-vfsw.xlsx'` and `'Label_Creator'` with the actual names of your cutsheet and repository directory, respectively.
+- -Go beaves :)
