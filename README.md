@@ -42,4 +42,4 @@ This tool is designed to automate the process of populating a label sheet based 
 - This tool was developed quickly and may not adhere to the highest standards of code cleanliness.
 - While functional, it may lack the polish of a fully refined product.
 - The most common error may be related to formatting. Ensure that your old ports and new ports match up as shown in the example cutsheet ('mock-idf-vfsw.xlsx').
-- -Go beaves :)
+- Go beaves :)
