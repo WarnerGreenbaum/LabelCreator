@@ -1,4 +1,4 @@
-![alt text](https://github.com/WarnerGreenbaum/LabelCreator/blob/main/Label_Creator/template_ignore_me/networklogo.jpg)
+<img src="https://github.com/WarnerGreenbaum/LabelCreator/blob/main/Label_Creator/template_ignore_me/networklogo.jpg" alt="alt text" width="300">
 
 **What Does It Do?**
 This tool is designed to automate the process of populating a label sheet based on a network switch cutsheet.
