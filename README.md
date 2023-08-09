@@ -1,27 +1,44 @@
-What does it do?
-This is created to automatically populate a label sheet given a network switch cutsheet.
+Certainly! Here's a more organized and formatted version of the instructions:
 
-1.
-  Download the repo and put it on your desktop
+**What Does It Do?**
+This tool is designed to automate the process of populating a label sheet based on a network switch cutsheet.
 
-2.
-Install the dependencies:
-pip install openpyxl
-pip install docx
-pip install docxtpl
+**Instructions:**
 
-3.
-  Drop your excel cutsheet into the inputs folder. (There is a mock cutsheet inside the input folder to show how it should be formatted).
+1. **Download and Setup:**
+   - Download the repository and place it on your desktop.
 
-4. Run the program from command line using py main.py (if confused by this step: Open up cmd, navigate to where the python file is located, you can navigate directories by using dir to display the directories and change directories using cd <directory to move to>)
-   
-   ex:
-   cd Desktop/Label_Creator
+2. **Install Dependencies:**
+   - Open your command line or terminal.
+   - Install the required dependencies using these commands:
+     ```
+     pip install openpyxl
+     pip install docx
+     pip install docxtpl
+     ```
 
-   py main.py
-   
-7. If successful a prompt will let you know how many sheets you need for the labels and the docx will be located in the outputs folder. If there is an error please read it.
+3. **Prepare Input:**
+   - Locate the 'inputs' folder within the downloaded repository.
+   - Place your Excel cutsheet into the 'inputs' folder.
+   - There is a sample cutsheet ('mock-idf-vfsw.xlsx') inside the 'inputs' folder to demonstrate the required format.
 
-NOTES:
-This was a tool made in a very short time in a not so clean way. It works well for what it is but is by no means a polished product.
--The one error that will most likely occur is with formatting, make sure your old ports and new ports match up like the example cutsheet mock-idf-vfsw
+4. **Run the Program:**
+   - Open your command line or terminal.
+   - Navigate to the directory where the Python file is located using the `cd` command. For example:
+     ```
+     cd Desktop/Label_Creator
+     ```
+   - Run the program using the command:
+     ```
+     py main.py
+     ```
+   - If successful, a prompt will display the number of sheets required for the labels.
+   - The generated DOCX file will be located in the 'outputs' folder.
+   - If an error occurs, carefully read the error message for troubleshooting.
+
+**Important Notes:**
+- This tool was developed quickly and may not adhere to the highest standards of code cleanliness.
+- While functional, it may lack the polish of a fully refined product.
+- The most common error may be related to formatting. Ensure that your old ports and new ports match up as shown in the example cutsheet ('mock-idf-vfsw.xlsx').
+
+Remember to replace `'mock-idf-vfsw.xlsx'` and `'Label_Creator'` with the actual names of your cutsheet and repository directory, respectively.
