@@ -135,7 +135,7 @@ for page in range(num_pages):
                 if index == 0 or index % 30 == 0: 
                     run = paragraph.add_run(switch_name)
                     run.font.size = Pt(30)  # Adjust font size as needed
-                    run.font.name = 'Stratum 2 MD'  # Use the desired font
+                    run.font.name = 'Calibri'  # Use the desired font
 
                 else:
                     run = paragraph.add_run(old_ports[index])
@@ -145,17 +145,17 @@ for page in range(num_pages):
                         run_divider =  paragraph.add_run("      |       ")
                     run_new =  paragraph.add_run(new_ports[index])  # Add content from your data list
                     run.font.size = Pt(30)  # Adjust font size as needed
-                    run.font.name = 'Stratum 2 MD'  # Use the desired font
+                    run.font.name = 'Calibri'  # Use the desired font
                     
                     # Set font color to orange (RGB: FF9900)
                     run_new.font.color.rgb = docx.shared.RGBColor(0xFF, 0x99, 0x00)
                     
                     # Set color and size for rest of runs
                     run_new.font.size = Pt(30)  # Adjust font size as needed
-                    run_new.font.name = 'Stratum 2 MD'  # Use the desired font
+                    run_new.font.name = 'Calibri'  # Use the desired font
 
                     run_divider.font.size = Pt(30)  # Adjust font size as needed
-                    run_divider.font.name = 'Stratum 2 MD'  # Use the desired font
+                    run_divider.font.name = 'Calibri'  # Use the desired font
 
                 # Increment index here, but only when content is added to the table
                 index += 1
