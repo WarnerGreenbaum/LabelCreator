@@ -5,9 +5,11 @@ This tool is designed to automate the process of populating a label sheet based 
 
 1. **Download and Setup:**
    - Download the repository and place it on your desktop.
+   - (Click the green "CODE" button and click download zip)
 
 2. **Install Dependencies:**
    - Open your command line or terminal.
+   - (You may need to install python/pip if not on your computer)
    - Install the required dependencies using these commands:
      ```
      pip install openpyxl
@@ -28,7 +30,7 @@ This tool is designed to automate the process of populating a label sheet based 
      ```
    - Run the program using the command:
      ```
-     py main.py
+     python main.py
      ```
    - If successful, a prompt will display the number of sheets required for the labels.
    - The generated DOCX file will be located in the 'outputs' folder.
