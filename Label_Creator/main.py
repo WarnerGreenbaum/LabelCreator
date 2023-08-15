@@ -102,8 +102,6 @@ max_rows_per_page = 15
 
 # Calculate the number of pages needed based on the data
 
-print("\n\n\n" +str(old_ports) + "\n\n\n")
-
 num_rows = len(old_ports)
 num_pages = (num_rows + max_rows_per_page - 1) // max_rows_per_page
 num_pages -= 2
